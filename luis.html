@@ -1,0 +1,74 @@
+<html>
+<title> El terreno de Luis </title>
+
+
+<center><img src="Encab.PNG" width="1095" heigth="100">
+<tr>
+<td>
+<p><font color="black" size="4" face="Tahoma"><center><strong>COLEGIO DE ESTUDIOS CIENTÍFICOS Y TECNÓLOGICOS DEL ESTADO DE MÉXICO. <br>
+PLANTEL IXTLAHUACA </strong></center></font></p>
+
+<p><font color="black" size="3" face="tahoma"><center><strong>Elaborado por:</strong> Karla Salinas Piña.
+<strong>Grupo:</strong> 404. <strong> Número de Lista:32 </strong></br>
+<strong>Fecha de Elaboración: </strong> 24 de Abril de 2024</td>
+<center><table border=0 width="1095"></center>
+<tr>
+<td>
+<a href="Men.html">
+<div style="text-align:left";><img src="Botonregresar.PNG" width="150"></a></div>
+</td> 
+</tr>
+</table><br>
+
+
+
+<p><font color="black" size="4" face="tahoma"><center><strong> El Terreno de Luis </strong></center><br>
+
+<script>
+function calcular(){
+var ancho= parseInt(document.MyForm.txtancho.value);
+var altura= parseInt(document.MyForm.txtaltura.value);
+var grosor= parseFloat(document.MyForm.txtgrosor.value);
+document.MyForm.txtResultado.value=(((ancho*altura)*grosor)*1000)/50;
+}
+</script>
+
+<body>
+<center><table width="1000" border="1">
+<form name="MyForm">
+<tr>
+<td width="300"><label> Dame la altura:</label></td>
+<td width="300"><input type="text" name="txtaltura"></td>
+
+<td width="200" rowspan="4"> <center><img src="cemento.JPEG" width="200" heigth="300" ></center></td>
+
+</tr>
+
+<tr>
+<td><label>Dame el ancho:</label></td>
+<td><input type="text" name="txtancho"></td>
+</tr>
+
+<tr>
+<td width="300"><label> Dame el grosor:</label></td>
+<td width="300"><input type="text" name="txtgrosor"></td>
+
+</tr>
+
+ 
+<tr>
+<td><label> Bultos:</label></td>
+<td><input type="text" name="txtResultado"></td>
+</tr>
+<tr>
+<td>
+<input type="button" value="CALCULAR" onclick="calcular()">
+</td>
+</tr>
+</form>
+</table>
+<img src="piedepag.PNG" width="1000" heigth="1200">
+</body></html>
+</body>
+</html>
+

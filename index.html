@@ -1,0 +1,213 @@
+<html>
+<head>
+<title>caratula cecytem</title>
+</head>
+<body>
+
+
+<center><img src="Encab.PNG" width="1095"  ></center>
+</td> 
+</tr>
+</table><br>
+
+<center><table border=1 width="1095">
+<tr>
+
+<td width="120">
+<center><input type="datetime-local"></center><br>
+<a href="https://cecytem.edomex.gob.mx/node/199">
+<img src="Botoncito.PNG" width="200"></center>
+<a href="https://cecytem.edomex.gob.mx/mision_vision_objetivos"><br>
+<img src="Botonmision.PNG" width="200"></center><br>
+<a href="https://cecytem.edomex.gob.mx/mision_vision_objetivos"><br>
+<img src="Botonvision.PNG" width="200"></center><br>
+<a href="https://cecytem.edomex.gob.mx/organigrama"><br>
+<img src="Botonorga.PNG" width="200"></center><br>
+<a href="https://cecytem.edomex.gob.mx/historia"><br>
+<img src="Botonhistoria.PNG" width="200"></center><br>
+</a></td>
+
+
+
+
+
+<td width="300" colspan="3">
+<marquee-direction="left"><img src="R.GIF" width="600"></center></marquee>
+
+<font color="blue" size="5" face="tahoma"><center><strong>PORTAFOLIO DE EVIDENCIAS</strong><br>
+<font color="black" size="3" face="tahoma"><center><strong>Modulo III:</strong> Desarrolla aplicaciones web<br>
+<strong>Submodulo I:</strong> Desarrolla aplicaciones web.<br>
+<strong>Submodulo II:</strong> Desarolla aplicaciones que se ejecutan en el cliente.<br>
+<strong>Submodulo III:</strong> Desarrolla aplicaciones que se ejecutan en el servidor.<br>
+
+<strong>Elaborado por:</strong> Karla Salinas Piña.<br>
+<strong>Grupo:</strong> 404<br>
+<strong>Numero de Lista:</strong>32<br>
+<strong><font color="Gren">CICLO ESCOLAR: </font></strong>2024-2024<br>
+<strong>Fecha de Elaboracion: </strong> 15 de Abril de 2024.</div><br>
+</td>
+
+<td width="300" >
+
+<style>
+        body {
+            
+            color: black;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 300px;
+            margin: 100px auto;
+        }
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border:;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            <center>width: 50%;</center>
+            padding: 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: red;
+            color: black;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: green;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <form action="#" method="post" id="loginForm">
+        <label for="username">Usuario:</label></center>
+        <input type="text" id="username" name="username">
+          <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password">
+        <center><input type="submit" value="Iniciar Sesión">
+        <button type="reset" id="limpiar" color="gren">Limpiar</button>
+    </form>
+</div>
+
+<script>
+    document.getElementById("loginForm").addEventListener("submit", function(event) {
+        event.preventDefault();
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+
+        if (username === "Karla" && password === "2008") {
+            window.location="Men.html";
+        } else {
+            alert("Usuario o contraseña incorrectos");
+        }
+    });
+</script>
+<center>
+<script type="text/javascript">
+    function greeting()
+{
+   var today = new Date();
+   var hrs = today.getHours();
+   document.writeln("<CENTER>");
+  // document.write("<H1>Buen");
+   if (hrs < 6)
+      document.write("");
+   else if (hrs < 12)
+      document.write("");
+   else if (hrs <= 18)
+      document.write("");
+   else
+      document.write("");
+   document.writeln("</H1>");
+   //document.write("Ingresaste a esta pagina el ");
+   dayStr = today.toLocaleString();
+   //document.write(dayStr);
+   document.writeln("</CENTER>");
+}
+function montharr(m0, m1, m2, m3, m4, m5, m6, m7, m8, m9, m10, m11)
+{
+   this[0] = m0;
+   this[1] = m1;
+   this[2] = m2;
+   this[3] = m3;
+   this[4] = m4;
+   this[5] = m5;
+   this[6] = m6;
+   this[7] = m7;
+   this[8] = m8;
+   this[9] = m9;
+   this[10] = m10;
+   this[11] = m11;
+}
+function calendar()
+{
+   var monthNames = "EneFebMarAbrMayJunJulAgoSepOctNovDic";
+   var today = new Date();
+   var thisDay;
+   var monthDays = new montharr(31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31);
+   year = today.getYear() ;
+   thisDay = today.getDate();   
+   if (((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0))
+   monthDays[1] = 29;
+   nDays = monthDays[today.getMonth()];
+   firstDay = today;
+   firstDay.setDate(1); // works fine for most systems
+   testMe = firstDay.getDate();
+   if (testMe == 2)
+   firstDay.setDate(0);    
+   startDay = firstDay.getDay();
+   document.writeln("<CENTER>");
+   document.write("<TABLE BORDER>");
+   document.write("<TR><TH COLSPAN=10>");
+   document.write(monthNames.substring(today.getMonth() * 3,
+   (today.getMonth() + 1) * 3));
+   document.write(". ");
+   document.write(year);
+   document.write("<TR><TH>D<TH>L<TH>M<TH>M<TH>J<TH>V<TH>S");
+   document.write("<TR>");
+   column = 0;
+   for (i=0; i<startDay; i++)
+   {
+   document.write("<TD>");
+   column++;
+   }
+   for (i=1; i<=nDays; i++)
+   {
+   document.write("<TD>");
+   if (i == thisDay)
+   document.write("<FONT COLOR=\"blue\"><b>")
+   document.write(i);
+   if (i == thisDay)
+   document.write("</b></FONT>")
+   column++;
+   if (column == 7)
+   {
+   document.write("<TR>"); 
+   column = 0;
+   }
+   }
+   document.write("</TABLE>");
+   document.writeln("</CENTER>");
+}
+   greeting();
+   document.write("</br>");
+   calendar();
+   document.write("");
+   </script><center>
+</td>
+
+</tr>
+</table>
+<img src="piedepag.png" width="1095" heigth="100">
+</body>
+
+
+
+
+
+</html>
